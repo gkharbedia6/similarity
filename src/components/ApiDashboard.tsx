@@ -20,8 +20,6 @@ const ApiDashboard = async () => {
     },
   });
 
-  //test comment
-
   const activeApiKey = apiKeys.find((key) => key.enabled);
 
   if (!activeApiKey) return notFound();
